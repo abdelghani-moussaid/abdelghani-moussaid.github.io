@@ -5,201 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-width=1.0">
     
     <title>Abdelghani Moussaid | Full-Stack .NET Developer & Marathon Runner</title>
-    <meta name="description" content="Portfolio of Abdelghani Moussaid, a Senior Full-Stack .NET Developer specializing in Native AOT, and competitive marathon/trail runner based in Casablanca, Morocco.">
+    <meta name="description" content="Portfolio of Abdelghani Moussaid, a Senior Full-Stack .NET Developer at Dedalus Group, specializing in high-performance healthcare solutions and Native AOT. Competitive marathon/trail runner based in Casablanca, Morocco.">
     <meta name="author" content="Abdelghani Moussaid">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://abdelghani-moussaid.github.io/" />
 
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="img/favicon.ico" sizes="any">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://abdelghani-moussaid.github.io/">
     <meta property="og:title" content="Abdelghani Moussaid | Full-Stack .NET Developer & Marathon Runner">
-    <meta property="og:description" content="Portfolio of Abdelghani Moussaid, a Senior Full-Stack .NET Developer specializing in Native AOT, and competitive marathon/trail runner based in Casablanca, Morocco.">
-    <meta property="og:image" content="https://abdelghani-moussaid.github.io/abdelghani-moussaid-dotnet-developer.png">
+    <meta property="og:description" content="Portfolio of Abdelghani Moussaid, a Senior Full-Stack .NET Developer at Dedalus Group, specializing in high-performance healthcare solutions and Native AOT. Competitive marathon/trail runner based in Casablanca, Morocco.">
+    <meta property="og:image" content="https://abdelghani-moussaid.github.io/img/abdelghani-moussaid-dotnet-developer.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://abdelghani-moussaid.github.io/">
     <meta name="twitter:title" content="Abdelghani Moussaid | Full-Stack .NET Developer & Marathon Runner">
-    <meta name="twitter:description" content="Portfolio of Abdelghani Moussaid, a Senior Full-Stack .NET Developer specializing in Native AOT, and competitive marathon/trail runner based in Casablanca, Morocco.">
-    <meta name="twitter:image" content="https://abdelghani-moussaid.github.io/abdelghani-moussaid-dotnet-developer.png">
-
-    <style>
-        :root {
-            --bg-color: #0A0A0A;
-            --surface-color: rgba(20, 20, 20, 0.7);
-            --border-color: rgba(255, 255, 255, 0.1);
-            --text-primary: #EAEAEA;
-            --text-secondary: #888888;
-            --accent-tech: #00FFFF;
-            --accent-tech-rgb: 0, 255, 255;
-            --accent-athlete: #FF4500;
-
-            --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            --font-mono: 'Roboto Mono', monospace;
-        }
-
-        @keyframes pulse-glow {
-            0% { box-shadow: 0 0 8px 2px rgba(var(--accent-tech-rgb), 0.2), 0 0 0 2px transparent; }
-            50% { box-shadow: 0 0 16px 4px rgba(var(--accent-tech-rgb), 0.4), 0 0 0 2px var(--accent-tech); }
-            100% { box-shadow: 0 0 8px 2px rgba(var(--accent-tech-rgb), 0.2), 0 0 0 2px transparent; }
-        }
-
-        body {
-            font-family: var(--font-primary);
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100dvh;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        .container {
-            max-width: 600px;
-            width: 90%;
-            margin: 20px auto;
-            text-align: center;
-        }
-
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-            object-fit: cover;
-            filter: grayscale(100%);
-            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-            animation: pulse-glow 4s infinite ease-in-out;
-            border: 2px solid var(--border-color);
-        }
-
-        .profile-img:hover {
-            filter: grayscale(0%);
-            transform: scale(1.05);
-            animation: none;
-            box-shadow: 0 0 25px 5px rgba(var(--accent-tech-rgb), 0.5), 0 0 0 2px var(--accent-tech);
-        }
-
-        h1 {
-            color: var(--text-primary);
-            margin-bottom: 5px;
-            font-weight: 700;
-            font-size: 2.5rem;
-        }
-
-        .subtitle {
-            font-size: 1.2rem;
-            font-family: var(--font-mono);
-            color: var(--text-secondary);
-            margin-bottom: 30px;
-        }
-
-        .location {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            margin-bottom: 30px;
-            display: block;
-        }
-
-        .links-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-        }
-
-        .zatca-card {
-            grid-column: 1 / -1;
-        }
-
-        .link-card {
-            background-color: var(--surface-color);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 15px 20px;
-            text-decoration: none;
-            color: var(--text-primary);
-            font-weight: 600;
-            position: relative;
-            overflow: hidden;
-            text-align: center;
-        }
-
-        /* === Dual-Feel Hover States === */
-
-        /* 1. Professional / Technical Hover */
-        .professional-section .link-card {
-            transition: background-color 0.3s ease;
-        }
-        .professional-section .link-card:hover {
-            background-color: rgba(255, 255, 255, 0.05);
-        }
-        .professional-section .link-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 2px;
-            background: var(--accent-tech);
-            transition: left 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-        }
-        .professional-section .link-card:hover::before {
-            left: 0;
-        }
-
-        /* 2. Athletic / Dynamic Hover */
-        .athletic-section .link-card {
-            transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), border-color 0.2s ease;
-        }
-        .athletic-section .link-card:hover {
-            transform: translateY(-4px);
-            border-color: var(--accent-athlete);
-        }
-
-        .section-title {
-            margin-top: 40px;
-            margin-bottom: 15px;
-            font-size: 1rem;
-            color: var(--text-secondary);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 600;
-        }
-
-        @media (max-width: 640px) {
-            .links-grid {
-                grid-template-columns: 1fr;
-            }
-            .zatca-card {
-                grid-column: auto; /* Reset for single column */
-            }
-            h1 {
-                font-size: 2rem;
-            }
-            .subtitle {
-                font-size: 1rem;
-            }
-        }
-    </style>
+    <meta name="twitter:description" content="Portfolio of Abdelghani Moussaid, a Senior Full-Stack .NET Developer at Dedalus Group, specializing in high-performance healthcare solutions and Native AOT. Competitive marathon/trail runner based in Casablanca, Morocco.">
+    <meta name="twitter:image" content="https://abdelghani-moussaid.github.io/img/abdelghani-moussaid-dotnet-developer.png">
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -208,7 +40,7 @@
       "@type": "Person",
       "name": "Abdelghani Moussaid",
       "url": "https://abdelghani-moussaid.github.io/",
-      "image": "https://abdelghani-moussaid.github.io/abdelghani-moussaid-dotnet-developer.png",
+      "image": "https://abdelghani-moussaid.github.io/img/abdelghani-moussaid-dotnet-developer.png",
       "sameAs": [
         "https://www.linkedin.com/in/abdelghani-moussaid",
         "https://github.com/abdelghani-moussaid",
@@ -220,7 +52,8 @@
       "jobTitle": "Full-Stack Engineer",
       "worksFor": {
         "@type": "Organization",
-        "name": "Self-employed"
+        "name": "Dedalus Group",
+        "url": "https://www.dedalus.com/"
       },
       "nationality": "Moroccan",
       "address": {
@@ -236,7 +69,7 @@
 
     <main class="container">
         <header>
-            <img src="abdelghani-moussaid-dotnet-developer.png" alt="Profile picture of Abdelghani Moussaid, a .NET developer and marathon runner." class="profile-img">
+            <img src="img/abdelghani-moussaid-dotnet-developer.png" alt="Profile picture of Abdelghani Moussaid, a .NET developer and marathon runner." class="profile-img">
             
             <h1>Abdelghani Moussaid</h1>
             <div class="subtitle">Full-Stack Engineer | .NET & Native AOT<br>🏃‍♂️ Marathon & Trail Runner</div>
