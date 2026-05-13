@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://abdelghani-moussaid.github.io/sitemap.xml
