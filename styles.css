@@ -116,10 +116,6 @@ h1 {
     gap: 15px;
 }
 
-.zatca-card {
-    grid-column: 1 / -1;
-}
-
 .link-card {
     background-color: var(--surface-color);
     backdrop-filter: blur(10px);
@@ -180,9 +176,6 @@ h1 {
 @media (max-width: 640px) {
     .links-grid {
         grid-template-columns: 1fr;
-    }
-    .zatca-card {
-        grid-column: auto; /* Reset for single column */
     }
     h1 {
         font-size: 2rem;
