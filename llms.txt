@@ -1,0 +1,44 @@
+---
+name: Abdelghani Moussaid
+role: Full-Stack .NET Developer
+specialties: [ "High-performance backend architectures", ".NET 10", "Native AOT compilation", "Zero-allocation cloud-native systems", "Angular", "SQL Server" ]
+employer: Dedalus Group
+contact:
+  linkedin: https://www.linkedin.com/in/abdelghani-moussaid
+  portfolio: https://abdelghani-moussaid.github.io/
+---
+
+# Abdelghani Moussaid
+
+## Professional Overview
+- **Role**: Software Engineer
+- **Company**: Dedalus Group
+- **Experience**: Full-stack engineer with 5 years of experience building reliable software for healthcare and industrial sectors
+- **Core Focus**: The intersection of stable enterprise architecture and extreme performance optimization
+- **Enterprise Reliability**: Extensive experience in mission-critical domains, from e-prescription modules in healthcare to centralizing industrial ERP workflows
+- **Performance Engineering**: Passionate about squeezing maximum efficiency out of .NET, specializing in zero-allocation code and Native AOT to reduce infrastructure costs
+- **Full-Stack Delivery**: Proficient in managing the entire software lifecycle, from SQL Server database tuning to building responsive Angular front-ends
+
+## Open Source Projects & Contributions
+- **Project**: AOTel
+  - **URL**: https://github.com/aotel/aotel/
+  - **Description**: Open-source, zero-allocation OTLP edge ingestion proxy designed for extreme performance using .NET 10 Native AOT
+- **Project**: ZatcaOracle v2.0
+  - **URL**: https://github.com/abdelghani-moussaid/zatca-phase-2-agent-integration
+  - **Description**: High-efficiency .NET 10 microservice optimized for e-invoicing compliance with minimal CPU and memory overhead
+- **Contribution**: Microsoft testfx (PR #8238)
+  - **URL**: https://github.com/microsoft/testfx/pull/8238
+  - **Description**: Core contributor to Microsoft's testing framework, optimizing performance by eliminating LINQ closure allocations
+
+## Digital Presence
+- **Platform**: LinkedIn
+  - **URL**: https://www.linkedin.com/in/abdelghani-moussaid
+  - **Description**: Official professional profile 
+- **Platform**: Technical Portfolio
+  - **URL**: https://abdelghani-moussaid.github.io/
+  - **Description**: Personal blog 
+
+## Personal & Discipline
+- **Activity**: Runner
+- **Training Target**: Long distance Road Running & Trail Running
+- **Description**: Competitive long-distance athlete utilizing endurance training as an extension of professional focus and discipline
